@@ -24,4 +24,4 @@ jobs:
     - run: npm install -g @oracle/suitecloud-cli
     - run: suitecloud account:manageauth --list
     - run: suitecloud account:savetoken --account TSTDRV1373386 --authid betonixGH --tokenid 4fdedaadd9ee07ed1c0113208524cd3780f708b1717b6ef33a0a7019672b3f3d --tokensecret 096104f98e8410310ade364bad6aeb9ec8967b650ecc163bc4d4ab1b57ba6312
-    - run: suitecloud project:deploy
+    - run: suitecloud project:deploy --dryrun
