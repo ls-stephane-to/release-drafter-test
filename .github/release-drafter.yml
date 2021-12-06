@@ -20,10 +20,13 @@ version-resolver:
       - 'major'
   minor:
     labels:
-      - 'minor'
+      - 'feature'
+      - 'feat'
   patch:
     labels:
       - 'patch'
+      - 'fix'
+      - 'bugfix'
   default: patch
 template: |
   ## Changes
