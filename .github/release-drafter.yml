@@ -28,6 +28,12 @@ version-resolver:
       - 'fix'
       - 'bugfix'
   default: patch
+autolabeler:
+  - label: 'bug'
+    branch:
+      - '/fix\/.+/'
+    title:
+      - '/fix/i'
 template: |
   ## Changes
 
