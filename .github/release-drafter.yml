@@ -29,11 +29,19 @@ version-resolver:
       - 'bugfix'
   default: patch
 autolabeler:
-  - label: 'bug'
-    branch:
-      - '/fix\/.+/'
+  - label: 'bugfix'
     title:
       - '/fix/i'
+      - '/patch/i'
+      - '/bugfix/i'
+  - label: 'feature'
+    title:
+      - '/feature/i'
+      - '/feat/i'
+  - label: 'chore'
+    title:
+      - '/maintenance/i'
+      - '/maint/i'
 template: |
   ## Changes
 
